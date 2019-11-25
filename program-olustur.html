@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Örnek Hareketler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width ,initial-scale="1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/program-olustur-style.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
+  <!-- Social media css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-select.min.js"></script>
+  <script src="js/program-olustur.js">
+
+  </script>
+
+
+</head>
+<body>
+  <div class="home page-holder bg-cover" style="background: url(../images/background-fitness.jpg);">
+    <! home başlangıç >
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+   <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hareketler</a>
+      <div class="dropdown-menu bg-dark">
+        <a class="dropdown-item" href="Haraketler_Tanıtım.html#Chest">Göğüs Hareketleri</a>
+        <a class="dropdown-item" href="Haraketler_Tanıtım.html#Arm">Kol Hareketleri</a>
+        <a class="dropdown-item" href="Haraketler_Tanıtım.html#Leg">Bacak Hareketleri</a>
+        <a class="dropdown-item" href="Haraketler_Tanıtım.html#Back">Sırt Hareketleri</a>
+        <a class="dropdown-item" href="Haraketler_Tanıtım.html#Shoulder">Omuz Hareketleri</a>
+      </div>
+    </li>
+    <li class="nav_item">
+      <a class="nav-link" href="örnek-Hareket-Programları.html">Örnek Porgramlar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="Program-Oluştur.html">Program Oluştur</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="antanasayfa.html">Antrenörler</a>
+    </li>
+  </ul>
+</div>
+</nav>
+
+</div>
+<! home bitiş >
+<div class="jumbotron jumbotron-fluid"">
+<div class="container">
+  <h3>Program Oluşturma Tablosu</h3>
+  <p>İstediğiniz programı oluşturmak için tablodaki hareketleri,set sayılarını,tekrar sayılarını seçerek kaydet butonuna basarak hareket programınızı oluşturabilirisiniz.Hareket programınız kaydedilerek diğer girişlerinizde oluşturduğunuz şekilde sunulacaktır.</p>
+  <table id="myTable" class="table order-list table-bordered table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Hareket İsmi</th>
+        <th>Bölge</th>
+        <th>Tekrar Sayısı</th>
+        <th>Set Sayısı</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <select class="custom-select classic">
+              <option>Hareket Seçin</option>
+            <optgroup label="GÖĞÜS HARAKETLERİ">
+              <option>Bench Press</option>
+              <option>İncline Press</option>
+              <option>İncline Dumbell Press</option>
+              <option>İncline Dumbell Fly</option>
+              <option>Butterfly</option>
+              <option>Decline Barbell Press</option>
+              <option>Dumbell Press</option>
+              <option>Dumbell Fly</option>
+              <option>Pullovers</option>
+              <option>Dips</option>
+              <option>Bench Press Machine</option>
+              <option>Cable Cross Machine</option>
+              <option>Push Up</option>
+            </optgroup>
+            <optgroup label=" ÖN KOL HARAKETLERİ (BİCEPS)">
+              <option>Barbell Curl</option>
+              <option>Scott Curl</option>
+              <option>Concentration</option>
+              <option>İncline Curl</option>
+              <option>Altarnatif Curl</option>
+              <option>Scott Curl</option>
+              <option>Hummer</option>
+            </optgroup>
+            <optgroup label="ARKA KOL HAREKETLERİ (TRİCEPS)">
+              <option>One Dumbell Triceps</option>
+              <option>Push Down Lat Machine</option>
+              <option>French Triceps Press</option>
+              <option>Close Grip Bench Press</option>
+              <option>Dips</option>
+              <option>Rope Push Down</option>
+              <option>Lying Scull Press</option>
+              <option>Kick Back</option>
+            </optgroup>
+            <optgroup label="BACAK HARAKETLERİ">
+              <option>Leg Press</option>
+              <option>Squat</option>
+              <option>Leg Extension</option>
+              <option>Leg Curl</option>
+              <option>Deadlift</option>
+              <option>Lunge</option>
+              <option>Adductor(iç)</option>
+              <option>Adbuctor(dış)</option>
+              <option>Gluteus Machine</option>
+              <option>Calf</option>
+            </optgroup>
+            <optgroup label="SIRT HARAKETLERİ">
+              <option>Pulley Row</option>
+              <option>Lat PullDown</option>
+              <option>Seated Row Pulley</option>
+              <option>One Dumbell Rowing</option>
+              <option>Pull Up</option>
+              <option>Bent Over Barbell Rowing</option>
+              <option>Low Row</option>
+              <option>T-bar</option>
+            </optgroup>
+            <optgroup label="OMUZ HARAKETLERİ">
+              <option>Barbell Press Behind</option>
+              <option>Side Lateral Raises</option>
+              <option>Bent Over Lateral Raises</option>
+              <option>Seated Alternate Dumbell Press</option>
+              <option>Upright Rowing</option>
+              <option>Military Press</option>
+              <option>Shrock Dumbell</option>
+              <option>Shoulder Press</option>
+              <option>Dumbell Press</option>
+              <option>Dumbell Front Raises</option>
+              <option>Rear Delt Machine</option>
+            </optgroup>
+            <optgroup label="BEL BÖLGESİ">
+              <option>Twister(Sopa ile Yan Bel)</option>
+              <option>Side Bend</option>
+              <option>Sit-Up</option>
+              <option>Crunches</option>
+              <option>Leg Raises</option>
+              <option>Hyper Extension</option>
+              <option>Twister Machine(Yan Bel)</option>
+              <option>Leg Raises</option>
+              <option>Twister(Düz Alet)</option>
+              <option>Abdominal Machine</option>
+              <option>Seated Knee Up</option>
+              <option></option>
+            </optgroup>
+          </select>
+        </td>
+        <td>Bacak</td>
+        <td>
+          <select class="custom-select classic">
+            <option>Tekrar Sayısı Seçin</option>
+            <option>8</option>
+            <option>10</option>
+            <option>12</option>
+            <option>15</option>
+            <option>20</option>
+            <option>∞</option>
+        </td>
+        <td>
+          <select class="custom-select classic">
+            <option>Set Sayısı Seçin</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5" style="text-align: left;">
+                <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </tfoot>
+  </table>
+</div>
+
+<div class="spacer"></div>
+
+<div class="d-flex justify-content-center">
+  <button type="button" class="btn btn-success" style="margin: 5px">KAYDET</button>
+  <button type="button" class="btn btn-warning" style="margin: 5px">GÜNCELLE</button>
+  <button type="button" class="btn btn-danger" style="margin: 5px">SİL</button>
+</div>
+</div>
+
+
+<footer class="page-Footer font-small  pt-4 " style="background-color: #2b2929">
+<!-- Footer Elements -->
+  <div class="text-center">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: #2b2929; color: white;">© 2019 All Right Reserved|
+    <a href="index.html" style="color: #e72b2b">Voltran</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

@@ -1,0 +1,67 @@
+html,
+body,
+
+.container
+{
+  background-image: url('../images/background-fitness.jpg');
+  position: relative;
+  top: 70px;
+}
+
+
+.card
+{
+  background-color: #314d47;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+/*DÖNDÜRME EFEKTİ*/
+.flip-container
+{
+	perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper
+{
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.flipper
+{
+	transition: 0.6s;
+  -webkit-transition: 0.6s;
+	transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+	position: relative;
+  -webkit-position: relative;
+}
+.front , .back
+{
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front , .back
+{
+	-webkit-backface-visibility: hidden;
+	-webkit-position: absolute;
+	-webkit-top: 0;
+	-webkit-left: 0;
+}
+
+.front
+{
+	z-index: 2;
+	transform: rotateY(0deg);
+  -webkit-z-index: 2;
+	-webkit-transform: rotateY(0deg);
+}
+.back
+{
+	transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}

@@ -1,0 +1,34 @@
+/* slider */
+
+.carousel-item {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-main-head{
+  color: #FE8659
+}
+
+/* line */
+.line{
+  border: 2px dashed #454545;
+}
+/* footer button */
+
+.btn-danger{
+  color: #e72b2b;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-width: 3px;
+  border: 2px solid #e72b2b);
+  border-radius: 50px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+.btn-danger:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px solid rgba(217, 83, 78, 0.75);
+}
