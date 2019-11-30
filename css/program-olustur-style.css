@@ -44,3 +44,28 @@ select.classic:focus {
 .carousel-item {
   height: 260px;
 }
+.button-add{
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #343a40;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-width: 4px;
+  border: 2px solid #343a40);
+  border-radius: 10px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+.button-add:hover{
+  color: #FFF;
+  background: color: #343a40;;
+  border: 2px solid #343a40);
+}
+
+.empty-background
+{
+  background-image: url('../images/background-fitness.jpg');
+  position: relative;
+  padding: 90px;
+}

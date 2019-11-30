@@ -46,17 +46,20 @@
       <a class="nav-link" href="örnek-Hareket-Programları.html">Örnek Porgramlar</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="Program-Oluştur.html">Program Oluştur</a>
+      <a class="nav-link active" href="program-olustur.html">Program Oluştur</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="antanasayfa.html">Antrenörler</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="giris.html">Giriş Yap</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="profil.html">Hesabım</a>
+    </li>
   </ul>
 </div>
 </nav>
-
-</div>
-<! home bitiş >
 <div class="jumbotron jumbotron-fluid"">
 <div class="container">
   <h3>Program Oluşturma Tablosu</h3>
@@ -64,14 +67,24 @@
   <table id="myTable" class="table order-list table-bordered table-dark table-hover">
     <thead>
       <tr>
-        <th>Hareket İsmi</th>
         <th>Bölge</th>
+        <th>Hareket İsmi</th>
         <th>Tekrar Sayısı</th>
         <th>Set Sayısı</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td><select class="custom-select classic">
+          <option>Bölge Seçiniz</option>
+          <option>Bacak</option>
+          <option>Göğüs</option>
+          <option>Omuz</option>
+          <option>Ön Kol</option>
+          <option>Arka Kol</option>
+          <option>Sırt</option>
+          <option>Bel Bölgesi</option>
+        </td>
         <td>
           <select class="custom-select classic">
               <option>Hareket Seçin</option>
@@ -160,7 +173,6 @@
             </optgroup>
           </select>
         </td>
-        <td>Bacak</td>
         <td>
           <select class="custom-select classic">
             <option>Tekrar Sayısı Seçin</option>
@@ -182,17 +194,10 @@
         </td>
       </tr>
     </tbody>
-    <tfoot>
-        <tr>
-            <td colspan="5" style="text-align: left;">
-                <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
-            </td>
-        </tr>
-        <tr>
-        </tr>
-    </tfoot>
   </table>
 </div>
+
+     <div class="d-flex justify-content-center"><button type="button" class="btn btn-dark button-add" id="addrow">+</button></div>
 
 <div class="spacer"></div>
 
@@ -203,9 +208,16 @@
 </div>
 </div>
 
+<div class="empty-background"></div>
 
+
+</div>
 <footer class="page-Footer font-small  pt-4 " style="background-color: #2b2929">
 <!-- Footer Elements -->
+<div class="support text-center">
+  <a href="destek.html" >Destek için Bizlere Ulaşın</a>
+</div>
+<br>
   <div class="text-center">
     <a href="#" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-twitter"></a>
@@ -220,5 +232,9 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
+</div>
+<! home bitiş >
+
 </body>
 </html>
