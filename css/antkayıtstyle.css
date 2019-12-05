@@ -1,0 +1,75 @@
+body{
+background-image: url("../images/dwayne.jpg");
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+
+
+
+#akayıt{
+  background-color: #000000;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+
+
+
+}
+
+#akayıt label{
+  color: #A9A9A9	;
+}
+#akayıt h1{
+  color: #D2691E;
+}
+#akayıt h4{
+  color: 	#fff;
+}
+input[type="date"]
+{
+    display:block;
+
+
+     -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+  }
+
+
+
+
+
+
+  .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+  .fa:hover {
+  opacity: 0.7;
+  color: #2b2929;
+  }
+
+  .fa-facebook {
+  background: #1877f2;
+  color: white;
+  }
+
+
+  .fa-google {
+  background: #ea4335;
+  color: white;
+  }
+
+
+
+
+  .form-color{
+  background-color: #2b2929;
+  color: #2b2929;
+  }

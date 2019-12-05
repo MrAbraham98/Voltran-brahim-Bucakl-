@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/antkayıtstyle.css">
+    <title>Antrenörlük Kayıt</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 ">
+          <div id="akayıt">
+            <h1 align="center">ANTRENÖRLÜK KAYIT FORMU</h1>
+      <br>
+      <form class="form-group text-center">
+        <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-sm-12 align-self-center">
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-google"></a><br>
+        </div>
+      </div>
+
+  <br>
+  <h4>veya</h4>
+
+  <div class="form-row">
+    <!--ad -->
+
+  <div class="col-sm-6">
+  <label for="validationCustom01">Ad:</label>
+  <input type="text" name="ad" class="form-control" id="validationCustom01" placeholder="Adınızı giriniz..."  required >
+
+  </div>
+
+  <!--soyad -->
+
+  <div class="col-sm-6">
+  <label for="validationCustom02">Soyad:</label>
+  <input type="text" name="soyad" class="form-control " id="validationCustom02" placeholder="Soyadınızı giriniz..." required >
+
+  </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+    <label for="validationCustom03">E-mail:</label>
+   <input type="email" name="email" class="form-control " placeholder="name@example.com" id="validationCustom03"  required >
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-12">
+     <label  for="validationCustom04">Telefon Numarası:</label>
+     <input  type="tel" name="telno" class="form-control " placeholder="555-555-5555" id="validationCustom04"  required>
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-12">
+     <label class="control-label" for="validationCustom05">Doğum Tarihi:</label>
+     <input class="col-sm-12 form-control" type="date" name="dtrh" class="form-control " id="validationCustom05" required>
+   </div>
+
+   </div>
+   <div class="row">
+     <div class="col-sm-12">
+     <label for="validationCustom06">Kullanıcı Adı:</label>
+     <input type="text" name="kadı" class="form-control" pattern="[a-z0-9]{3,15}" placeholder="Kullanıcı adı giriniz..."aria-describedby="passwordHelpInline"id="validationCustom06" required >
+     <small id="passwordHelpInline" class="text-muted">
+      Kullanıcı adı özel karakter(%,?vs.) içermemelidir ve
+      3-15 karakter uzunluğunda olmalıdır.
+    </small>
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-12">
+     <label for="validationCustom07">Şifre:</label>
+     <input type="password" name="sifre" class="form-control" minlength="6" maxlength="14" placeholder="Şifre giriniz..." aria-describedby="passwordHelpInline"id="validationCustom07"  required>
+     <small id="passwordHelpInline" class="text-muted">
+      Şifre 6-14 karakter uzunluğunda olmalıdır.
+    </small>
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-12">
+       <label for="exampleFormControlFile1" for="validationCustom08">Antrenörlük Belgesi:</label>
+       <input type="file" class="form-control-file" name="antdosya" id="exampleFormControlFile1"id="validationCustom08"  required >
+     </div>
+
+   </div>
+   <br>
+   <div class="row">
+     <div class="col-sm-12">
+
+    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModalLong">
+      Kullanıcı Sözleşmesi
+    </button>
+
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Kullanıcı Sözleşmesi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Bu sitenin tüm hakları gizli ve saklıdır.Bilgilerin izinsiz kullanılması yasak ve suçtur.Üye olurken girdiğiniz bilgilerin doğruluğundan siz sorumlusunuz.
+            Bilgileriniz kesinlikle sizden izinsiz 3.parti uygulama,kişi,kurum ve kurluşlarla paylaşılmayacaktır.Bilgilerinizin doğruluğu testip edilemediği takdirde
+            hesabınızı silme yetkisine sahibiz.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+     </div>
+   </div>
+   <br>
+
+   <div class="row">
+     <div class="col-sm-12">
+       <input type="checkbox" class="form-check-input" id="Check1" id="validationCustom09"  required>
+       <label for="validationCustom09" class="form-check-label" for="Check1"><b>Kullanıcı Sözleşmesini Okudum</b></label>
+     </div>
+   </div>
+   <br>
+   <div class="row">
+     <div class="col-sm-12">
+
+<button class="btn btn-primary" type="button" onclick="window.location.href = 'hesapaktiflestirme.html';">Kayıt Ol</button>
+
+
+
+     </div>
+
+   </div>
+
+
+  </div>
+
+
+
+
+   </form>
+   </form>
+
+
+
+
+
+
+        </div>
+
+      </div>
+        <div class="col-sm-3"></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+  </body>
+</html>
